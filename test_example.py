@@ -11,6 +11,7 @@ shapes = {
     'gigaword':(128, 32),
     'aeslc':(512, 32),
     'arxiv':(1024, 256),
+    'pubmed':(1024, 256),
     'big_patent':(1024, 256)
 }
 
