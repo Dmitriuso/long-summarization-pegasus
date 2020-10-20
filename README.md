@@ -21,8 +21,8 @@ We are excited to hereby present the PEGASUS model fine-tuned for the abstract s
 Our goal was to make the project as simple as possible. All you need to do are the following 3 steps: 
 
 * run the command: `pip3 install -r requirements.txt`
-* download the fine-tuned models for [arxiv](), [pubmed]() and/or [big_patent/d](https://drive.google.com/drive/folders/1-rs-zv1mmzP7nf-ecQ1d5wDgzIy3SO0E?usp=sharing)
-* unzip the archive(s) and put the files into `model_arxiv`, `model_pubmed` and `model_big_patent_d` respecively.
+* download the fine-tuned models for [arxiv](https://drive.google.com/drive/folders/1rmFCrF7Hro_EkQrwG4zkYrc6C_HIAJ3U?usp=sharing), [pubmed](https://drive.google.com/drive/folders/1lZQ6tzT5WrDSL0hRZWpLyh9D-NJZS-3c?usp=sharing) and/or [big_patent/d](https://drive.google.com/drive/folders/1-rs-zv1mmzP7nf-ecQ1d5wDgzIy3SO0E?usp=sharing)
+* put the files into `model_arxiv`, `model_pubmed` and `model_big_patent_d` respecively.
 
 You are all set, time to choose your text to summarize!
 
