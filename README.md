@@ -2,7 +2,20 @@
 
 ## Short Introduction
 
-PEGASUS model by Google was open sourced in July 2020: you can find more information about it in [Google AI blog](https://ai.googleblog.com/2020/06/pegasus-state-of-art-model-for.html), in the corresponding [academic article](https://arxiv.org/pdf/1912.08777.pdf) and in [PEGASUS GitHub repository](https://github.com/google-research/pegasus).
+PEGASUS model by Google was open sourced in July 2020: you can find more information about it in [Google AI blog](https://ai.googleblog.com/2020/06/pegasus-state-of-art-model-for.html), in the corresponding [academic paper](https://arxiv.org/pdf/1912.08777.pdf) and in [PEGASUS GitHub repository](https://github.com/google-research/pegasus).
+
+If you use PEGASUS code or models published, please cite the paper:
+
+```
+@misc{zhang2019pegasus,
+    title={PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization},
+    author={Jingqing Zhang and Yao Zhao and Mohammad Saleh and Peter J. Liu},
+    year={2019},
+    eprint={1912.08777},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+```
 
 PEGASUS release on GitHub was not initially destined for an arbitrary text summarization, but rather for evaluation testing. That is why one of fellow enthusiast researchers, [TheRockXu](https://github.com/TheRockXu), [forked](https://github.com/TheRockXu/pegasus-demo) the PEGASUS GitHub repository and made it work on arbitrary text.
 
@@ -30,10 +43,11 @@ You are all set, time to choose your text to summarize!
 
 Just enter the text you want to summarize into `example_article` and launch the following bash command:
 
-`python3 test_example.py --article /example_article --model_dir /model_pubmed --model_name arxiv` 
+`python3 test_example.py --article /example_article --model_dir /model_arxiv --model_name arxiv` 
 
 `arxiv` can of course be substituted with `pubmed` or `big_patent`. 
 
-The following article was chosen as an example by default: [link]()
+The following article was chosen as an example by default: [link](https://www.theguardian.com/news/2020/oct/15/dangerous-rise-of-military-ai-drone-swarm-autonomous-weapons)
 
+Launching `test_example.py` with the parameters indicated above, you should get the following output: `PREDICTION >>`
 
