@@ -1,6 +1,12 @@
 # Long Summarization PEGASUS
 
-I'm excited to hereby present the PEGASUS model fine-tuned for the abstract summarization of arbitrary long texts. We fine-tuned it in English on datasets `scientific_papers/arxiv`, `scientific_papers/pubmed` and `big_patent/d`.
+## Short Introduction
+
+PEGASUS model by Google was open sourced in July 2020: you can find more information about it in [Google AI blog](https://ai.googleblog.com/2020/06/pegasus-state-of-art-model-for.html), in the corresponding [academic article](https://arxiv.org/pdf/1912.08777.pdf) and in [PEGASUS GitHub repository](https://github.com/google-research/pegasus).
+
+## Our Contribution
+
+We are excited to hereby present the PEGASUS model fine-tuned for the abstract summarization of long arbitrary texts. We fine-tuned it in English on datasets `scientific_papers/arxiv`, `scientific_papers/pubmed` and `big_patent/d`.
 
 * Unfortunately, BIG_PATENT dataset is very costly in terms of conversion into training data, we didn't manage to prepare the whole dataset and opted for fine-tuning on its parts.
 
