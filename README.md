@@ -49,5 +49,5 @@ Just enter the text you want to summarize into `example_article` and launch the 
 
 The following article was chosen as an example by default: [link](https://www.theguardian.com/news/2020/oct/15/dangerous-rise-of-military-ai-drone-swarm-autonomous-weapons)
 
-Launching `test_example.py` with the parameters indicated above, you should get the following output: `PREDICTION >>`
+Launching `test_example.py` with the parameters indicated above, you should get the following output: `PREDICTION >> ‘Machines set loose to slaughter’: the dangerous rise of military AI Autonomous machines capable of deadly force are increasingly prevalent in modern warfare, despite numerous ethical concerns. A recent novel by PW Singer and August Cole, set in a near future in which the US is at war with China and Russia, presented a kaleidoscopic vision of autonomous drones, lasers and hijacked satellites. A Russian science fiction story from the 60s, Crabs on the Island, described a kind of Hunger Games for AIs, in which robots would battle one another for resources.`
 
